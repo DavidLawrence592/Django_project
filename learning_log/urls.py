@@ -21,3 +21,4 @@ urlpatterns = [
     path('',include('MainApp.urls')),
     path('users/',include('users.urls')),
 ]
+

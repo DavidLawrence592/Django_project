@@ -68,6 +68,7 @@ def new_entry(request, topic_id):
 
     context = {'form':form, 'topic':topic}
     return render(request, 'MainApp/new_entry.html', context)
+    
 
 
 @login_required
